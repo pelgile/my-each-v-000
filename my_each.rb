@@ -1,11 +1,11 @@
 def my_each # put argument(s) here
   # code here
 
-  def my_each(collection)
+  def my_each(collections)
   i = 0
-  while i < collection.length
-    yield(collection[i])
+  while i < collections.length
+    yield(collections[i])
     i = i + 1
   end
-  collection
+  collections
 end
